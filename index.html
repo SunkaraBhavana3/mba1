@@ -9,40 +9,25 @@
 
 <style> 
 /* Navbar styles */ 
-.navbar { 
-background-color: white; 
-padding: 15px 30px; 
-display: flex; 
-justify-content: space-between; 
-align-items: center; 
-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); 
-position: sticky; 
-top: 0; 
-z-index: 1000; 
-} 
-.navbar .logo { 
-font-weight: bold; 
-font-size: 1.2rem; 
-display: flex; 
-align-items: center; 
-color: #333; 
-} 
-/* Logo image inside navbar */ 
-.navbar .logo img { 
-height: 40px; 
-vertical-align: middle; 
-margin-right: 10px; 
-} 
-.navbar nav ul { 
-display: flex; 
-list-style: none; 
-gap: 20px; 
-} 
-.navbar nav ul li a { 
-text-decoration: none; 
-color: #333; 
-font-weight: 500; 
-} 
+.navbar-custom {
+      background-color: white;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+      color: #333;
+    }
+
+    .navbar-brand img {
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    .navbar-nav .nav-link {
+      font-weight: 500;
+      color: #333 !important;
+    }
 .hero-title {
       font-size: 2.8rem;
       font-weight: 700;
